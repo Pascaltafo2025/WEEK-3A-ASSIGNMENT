@@ -1,0 +1,20 @@
+---
+title: "TV Show Recommendation System Using Global Baseline Estimate"
+author: "PASCAL HERMANN KOUOGANG TAFO"
+format: html
+editor: visual
+---
+
+# INTRODUCTION
+
+My assignment consists of using a TV shows rating table and **implement the Global Baseline Estimate (GBE) algorithm to recommend to users which TV Show to watch next** among the ones they missed. This algorithm provides an effective baseline for collaborating filtering because it considers both individual user rating tendencies and overall show popularity by decomposing predictions into global mean, user bias, and item bias components.
+
+# APPROACH
+
+To accomplish our goal here, we will find the value of parameters that are included into predictive algorithm.
+
+In fact, we will **calculate the global mean rating** for all user-item iteraction, the **item biases** and the **user biases**.
+
+Next, we will **applied the existing GBE formula to predict missing user-item ratings** that will be helpful to rank unrated TV Shows by each user and then generate personalized recommendations.
+
+I believe that we might face the **challenge with the unrated** TV Shows because **"zeros" or missing values** can be tricky when **calculating means and biases**.
